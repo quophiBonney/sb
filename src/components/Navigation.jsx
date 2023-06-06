@@ -1,15 +1,9 @@
 import React from "react";
-import {useLocation, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import NavCSS from "./Components.module.css";
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {HiCode, HiMenuAlt3} from "react-icons/hi";
 function Navigation() {
-  const location = useLocation();
-  if (location.pathname === "/auth/login") {
-    return null; // Return nothing to hide the navbar
-  } else if (location.pathname === "/auth/signup") {
-    return null;
-  }
   return (
     <Navbar
       collapseOnSelect

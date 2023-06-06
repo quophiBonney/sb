@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import Bonney from "../images/clef.png";
-import CV from "../images/cv.pdf";
+import Bonney from "../../images/bg.jpg";
+import CV from "../../images/cv.pdf";
 import {
   BsDownload,
   BsGithub,
@@ -19,10 +19,7 @@ const About = () => {
             sm={12}
             md={6}
             lg={6}
-            className="text-center align-items-center mt-3 px-3"
-            data-aos="slide-right"
-            data-aos-duration="2000"
-            data-aos-delay="100"
+            className="text-center align-items-center mt-2 px-3"
           >
             <img
               src={Bonney}
@@ -32,15 +29,7 @@ const About = () => {
               id="mypic"
             />
           </Col>
-          <Col
-            sm={12}
-            md={6}
-            lg={6}
-            className="text-light mt-5 px-4"
-            data-aos="slide-left"
-            data-aos-duration="2000"
-            data-aos-delay="300"
-          >
+          <Col sm={12} md={6} lg={6} className="text-light mt-2 px-4">
             <h2 className="text-uppercase mt-5">I'm Solomon Bonney</h2>
             <p>
               I am a <strong>software engineer</strong> based in &nbsp;

@@ -8,12 +8,7 @@ import {SiPhp, SiMysql, SiFirebase} from "react-icons/si";
 const Skill = () => {
   return (
     <div>
-      <Container
-        className="mt-5"
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-        data-aos-delay="200"
-      >
+      <Container className="mt-5">
         <Row className="justify-content-center">
           <h3 className="text-light text-uppercase section-title">Skills</h3>
           <hr className="text-light" />

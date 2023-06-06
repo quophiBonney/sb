@@ -6,12 +6,7 @@ import Laravel from "../../images/laravel.jpg";
 const Certifications = () => {
   return (
     <div>
-      <Container
-        className="mt-5"
-        data-aos="zoom-out"
-        data-aos-duration="2000"
-        data-aos-delay="200"
-      >
+      <Container className="mt-5">
         <Row className="justify-content-center">
           <h3 className="section-title text-light text-uppercase px-4">
             Certifications

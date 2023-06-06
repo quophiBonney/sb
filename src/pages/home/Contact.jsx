@@ -1,15 +1,10 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import Faq from "../images/faq.png";
+import Faq from "../../images/faq.png";
 const Contact = () => {
   return (
     <div>
-      <Container
-        className="mt-5"
-        data-aos="slide-left"
-        data-aos-duration="2000"
-        data-aos-delay="200"
-      >
+      <Container className="mt-5">
         <Row className="justity-content-center">
           <Col sm={12} md={6} lg={6} className="px-4 mt-5">
             <img

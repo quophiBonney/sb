@@ -1,8 +1,7 @@
 import {useState} from "react";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import {Container, Col, Row} from "react-bootstrap";
-import {BsLinkedin, BsReceipt} from "react-icons/bs";
+import {BsLinkedin} from "react-icons/bs";
 import {FaHandshake} from "react-icons/fa";
 import {FaUserCog} from "react-icons/fa";
 function Banner() {
@@ -13,11 +12,7 @@ function Banner() {
   return (
     <div>
       <Container fluid className="banner">
-        <Container
-          data-aos="slide-right"
-          data-aos-duration="2000"
-          data-aos-delay="300"
-        >
+        <Container>
           <Row>
             <Col
               sm={12}
@@ -49,7 +44,9 @@ function Banner() {
                 keyboard={false}
               >
                 <Modal.Header closeButton>
-                  <Modal.Title>Modal title</Modal.Title>
+                  <Modal.Title className="text-uppercase">
+                    Project Ordering Form
+                  </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                   <form>

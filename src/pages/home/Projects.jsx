@@ -1,25 +1,17 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import Movie from "../images/moviestreaming.png";
-import Solomon from "../images/solomonbonneyinstitute.png";
-import Ecommerce from "../images/newPhone.jpg";
+import Movie from "../../images/moviestreaming.png";
+import Solomon from "../../images/solomonbonneyinstitute.png";
+import Ecommerce from "../../images/newPhone.jpg";
 const Projects = () => {
   return (
     <div>
       <Container className="mt-5">
         <Row className="justify-content-center">
           <h3 className="text-light text-uppercase section-title">Projects</h3>
-          <hr className="text-light" />
-          <Col
-            sm={12}
-            md={6}
-            lg={6}
-            className="mb-3 px-4"
-            data-aos="slide-right"
-            data-aos-duration="2000"
-            data-aos-delay="100"
-          >
+          <hr className="text-light mb-3" />
+          <Col sm={12} md={6} lg={6} className="mt-5 px-4">
             <img
               src={Movie}
               alt="movie collection"
@@ -27,15 +19,7 @@ const Projects = () => {
               id="project-img"
             />
           </Col>
-          <Col
-            sm={12}
-            md={6}
-            lg={6}
-            className="text-light mb-2 px-4"
-            data-aos="slide-left"
-            data-aos-duration="2000"
-            data-aos-delay="500"
-          >
+          <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
             <h3 className="app-title mt-2">BTbue</h3>
             <div className="button-group">
               <button
@@ -78,15 +62,7 @@ const Projects = () => {
               Source Code
             </Link>
           </Col>
-          <Col
-            sm={12}
-            md={6}
-            lg={6}
-            className="mt-3 px-4"
-            data-aos="slide-right"
-            data-aos-duration="2000"
-            data-aos-delay="100"
-          >
+          <Col sm={12} md={6} lg={6} className="mt-5 px-4">
             <img
               src={Solomon}
               alt="Solomon Bonney Institute"
@@ -94,15 +70,7 @@ const Projects = () => {
               id="project-img"
             />
           </Col>
-          <Col
-            sm={12}
-            md={6}
-            lg={6}
-            className="text-light mb-2 px-4"
-            data-aos="slide-left"
-            data-aos-duration="2000"
-            data-aos-delay="500"
-          >
+          <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
             <h3 className="app-title mt-2">Solomon Bonney Institute</h3>
             <div className="button-group">
               <button
@@ -144,15 +112,7 @@ const Projects = () => {
               Source Code
             </Link>
           </Col>
-          <Col
-            sm={12}
-            md={6}
-            lg={6}
-            className="mt-3 px-4"
-            data-aos="slide-right"
-            data-aos-duration="2000"
-            data-aos-delay="100"
-          >
+          <Col sm={12} md={6} lg={6} className="mt-5 px-4">
             <img
               src={Ecommerce}
               alt="ecommerce product listing png"
@@ -160,15 +120,7 @@ const Projects = () => {
               id="project-img"
             />
           </Col>
-          <Col
-            sm={12}
-            md={6}
-            lg={6}
-            className="text-light mb-2 px-4"
-            data-aos="slide-left"
-            data-aos-duration="2000"
-            data-aos-delay="500"
-          >
+          <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
             <h3 className="app-title mt-2">Ecommerce Web App</h3>
             <div className="button-group">
               <button
