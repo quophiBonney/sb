@@ -11,6 +11,7 @@ const Contact = () => {
               src={Faq}
               alt="sending message png"
               className="img-fluid img-responsive"
+              loading="lazy"
             />
           </Col>
           <Col sm={12} md={6} lg={6} className="px-4 text-light mt-5">

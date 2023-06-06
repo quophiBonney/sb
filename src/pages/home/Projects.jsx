@@ -17,6 +17,7 @@ const Projects = () => {
               alt="movie collection"
               className="img-fluid img-responsive"
               id="project-img"
+              loading="lazy"
             />
           </Col>
           <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
@@ -68,6 +69,7 @@ const Projects = () => {
               alt="Solomon Bonney Institute"
               className="img-fluid img-responsive"
               id="project-img"
+              loading="lazy"
             />
           </Col>
           <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
@@ -118,6 +120,7 @@ const Projects = () => {
               alt="ecommerce product listing png"
               className="img-fluid img-responsive"
               id="project-img"
+              loading="lazy"
             />
           </Col>
           <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">

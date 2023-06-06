@@ -24,7 +24,7 @@ const About = () => {
             <img
               src={Bonney}
               alt="Solomon Bonney"
-              lang="lazy"
+              loading="lazy"
               className="img-fluid img-responsive"
               id="mypic"
             />

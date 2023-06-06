@@ -24,6 +24,7 @@ const Certifications = () => {
             <img
               src={Cert}
               alt="certificate"
+              loading="lazy"
               className="img-fluid img-responsive mb-3"
             />
           </Col>
@@ -39,6 +40,7 @@ const Certifications = () => {
             <img
               src={JavaScript}
               alt="javascript certificate"
+              loading="lazy"
               className="img-fluid img-responsive mb-3"
             />
           </Col>
@@ -47,6 +49,7 @@ const Certifications = () => {
             md={4}
             lg={4}
             className="px-4 cert-container text-center"
+            loading="lazy"
           >
             <h5 className="text-light py-3">
               Certificate For Laravel Completion
@@ -54,6 +57,7 @@ const Certifications = () => {
             <img
               src={Laravel}
               alt="laravel certificate"
+              loading="lazy"
               className="img-fluid img-responsive mb-3"
             />
           </Col>
