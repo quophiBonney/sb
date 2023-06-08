@@ -17,7 +17,7 @@ const About = () => {
         <Row className="justify-content-center">
           <Col
             sm={12}
-            md={6}
+            md={12}
             lg={6}
             className="text-center align-items-center mt-2 px-3"
           >
@@ -29,7 +29,7 @@ const About = () => {
               id="mypic"
             />
           </Col>
-          <Col sm={12} md={6} lg={6} className="text-light mt-2 px-4">
+          <Col sm={12} md={12} lg={6} className="text-light mt-2 px-4">
             <h2 className="text-uppercase mt-5">I'm Solomon Bonney</h2>
             <p>
               I am a <strong>software engineer</strong> based in &nbsp;

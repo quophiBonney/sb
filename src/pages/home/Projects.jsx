@@ -11,7 +11,7 @@ const Projects = () => {
         <Row className="justify-content-center">
           <h3 className="text-light text-uppercase section-title">Projects</h3>
           <hr className="text-light mb-3" />
-          <Col sm={12} md={6} lg={6} className="mt-5 px-4">
+          <Col sm={12} md={12} lg={6} className="mt-5 ">
             <img
               src={Movie}
               alt="movie collection"
@@ -20,7 +20,7 @@ const Projects = () => {
               loading="lazy"
             />
           </Col>
-          <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
+          <Col sm={12} md={12} lg={6} className="text-light mt-3">
             <h3 className="app-title mt-2">BTbue</h3>
             <div className="button-group">
               <button
@@ -63,7 +63,7 @@ const Projects = () => {
               Source Code
             </Link>
           </Col>
-          <Col sm={12} md={6} lg={6} className="mt-5 px-4">
+          <Col sm={12} md={12} lg={6} className="mt-5 ">
             <img
               src={Solomon}
               alt="Solomon Bonney Institute"
@@ -72,7 +72,7 @@ const Projects = () => {
               loading="lazy"
             />
           </Col>
-          <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
+          <Col sm={12} md={12} lg={6} className="text-light mt-3 ">
             <h3 className="app-title mt-2">Solomon Bonney Institute</h3>
             <div className="button-group">
               <button
@@ -114,7 +114,7 @@ const Projects = () => {
               Source Code
             </Link>
           </Col>
-          <Col sm={12} md={6} lg={6} className="mt-5 px-4">
+          <Col sm={12} md={12} lg={6} className="mt-5 ">
             <img
               src={Ecommerce}
               alt="ecommerce product listing png"
@@ -123,7 +123,7 @@ const Projects = () => {
               loading="lazy"
             />
           </Col>
-          <Col sm={12} md={6} lg={6} className="text-light mt-3 px-4">
+          <Col sm={12} md={12} lg={6} className="text-light mt-3 ">
             <h3 className="app-title mt-2">Ecommerce Web App</h3>
             <div className="button-group">
               <button
