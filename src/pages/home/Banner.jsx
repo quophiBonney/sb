@@ -19,6 +19,9 @@ function Banner() {
               md={12}
               lg={12}
               className="banner-container text-light mt-3"
+              data-aos="slide-right"
+              data-aos-delay="100"
+              data-aos-duration="1000"
             >
               <h1 className="text-uppercase name">
                 <FaHandshake />
@@ -28,12 +31,12 @@ function Banner() {
               <div className="button-group">
                 <a
                   href="#"
-                  className="btn btn-primary btn-sm mb-2 m-2"
+                  className="btn btn-danger btn-sm mb-2 m-2"
                   onClick={handleShow}
                 >
                   <FaUserCog className="icons m-2" /> Hire Me
                 </a>
-                <a href="https://" className="btn btn-primary btn-sm mb-2 m-2">
+                <a href="https://" className="btn btn-danger btn-sm mb-2 m-2">
                   <BsLinkedin className="icons m-2" /> Connect With Me
                 </a>
               </div>

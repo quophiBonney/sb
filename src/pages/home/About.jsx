@@ -20,6 +20,9 @@ const About = () => {
             md={12}
             lg={6}
             className="text-center align-items-center mt-2 px-3"
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
           >
             <img
               src={Bonney}
@@ -29,7 +32,15 @@ const About = () => {
               id="mypic"
             />
           </Col>
-          <Col sm={12} md={12} lg={6} className="text-light mt-2 px-4">
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="text-light mt-2 px-4"
+            data-aos="slide-left"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
             <h2 className="text-uppercase mt-5">I'm Solomon Bonney</h2>
             <p>
               I am a <strong>software engineer</strong> based in &nbsp;
@@ -49,11 +60,7 @@ const About = () => {
               </a>
               .
             </p>
-            <a
-              href={CV}
-              download={true}
-              className="btn btn-primary btn-sm mb-2"
-            >
+            <a href={CV} download={true} className="btn btn-danger btn-sm mb-2">
               <BsDownload className="icons m-2" /> Download CV
             </a>
             <div className="button-group">

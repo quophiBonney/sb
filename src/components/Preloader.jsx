@@ -12,6 +12,8 @@ function Preloader() {
               alt="load-white gif"
               className="img-fluid img-responsive"
             />
+            <h3 className="text-light text-uppercase">Please Wait....</h3>
+            <p className="text-light text-uppercase">Solomon Bonney</p>
           </Col>
         </Row>
       </Container>
