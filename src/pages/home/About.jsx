@@ -20,7 +20,7 @@ const About = () => {
             md={12}
             lg={6}
             className="text-center align-items-center mt-2 px-3"
-            data-aos="slide-right"
+            data-aos="slide-up"
             data-aos-delay="100"
             data-aos-duration="1000"
           >
@@ -37,7 +37,7 @@ const About = () => {
             md={12}
             lg={6}
             className="text-light mt-2 px-4"
-            data-aos="slide-left"
+            data-aos="slide-up"
             data-aos-delay="300"
             data-aos-duration="3000"
           >

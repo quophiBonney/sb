@@ -11,16 +11,21 @@ const Projects = () => {
         <Row className="justify-content-center">
           <h3 className="text-light text-uppercase section-title">Projects</h3>
           <hr className="text-light mb-3" />
-          <Col sm={12} md={12} lg={6} className="mt-5 ">
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="mt-5"
+            data-aos="slide-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             <img
               src={Movie}
               alt="movie collection"
               className="img-fluid img-responsive"
               id="project-img"
               loading="lazy"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-              data-aos-duration="1000"
             />
           </Col>
           <Col
@@ -28,9 +33,9 @@ const Projects = () => {
             md={12}
             lg={6}
             className="text-light mt-3"
-            data-aos="zoom-in"
-            data-aos-delay="300"
-            data-aos-duration="3000"
+            data-aos="slide-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
           >
             <h3 className="app-title mt-2">BTbue</h3>
             <div className="button-group">
@@ -78,8 +83,8 @@ const Projects = () => {
             sm={12}
             md={12}
             lg={6}
-            className="mt-5 "
-            data-aos="zoom-out"
+            className="mt-5"
+            data-aos="slide-up"
             data-aos-delay="100"
             data-aos-duration="1000"
           >
@@ -96,9 +101,9 @@ const Projects = () => {
             md={12}
             lg={6}
             className="text-light mt-3"
-            data-aos="zoom-out"
-            data-aos-delay="300"
-            data-aos-duration="3000"
+            data-aos="slide-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
           >
             <h3 className="app-title mt-2">Ecommerce Web App</h3>
             <div className="button-group">
@@ -144,7 +149,7 @@ const Projects = () => {
             md={12}
             lg={6}
             className="mt-5"
-            data-aos="slide-right"
+            data-aos="slide-up"
             data-aos-delay="100"
             data-aos-duration="1000"
           >
@@ -161,9 +166,9 @@ const Projects = () => {
             md={12}
             lg={6}
             className="text-light mt-3"
-            data-aos="slide-left"
-            data-aos-delay="300"
-            data-aos-duration="3000"
+            data-aos="slide-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
           >
             <h3 className="app-title mt-2">Solomon Bonney Institute</h3>
             <div className="button-group">

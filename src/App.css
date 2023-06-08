@@ -111,9 +111,6 @@ img {
   }
 }
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
   .name {
     font-size: 23px;
     font-weight: 800;

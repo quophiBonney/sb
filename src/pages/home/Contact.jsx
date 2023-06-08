@@ -4,14 +4,17 @@ import Faq from "../../images/faq.png";
 const Contact = () => {
   return (
     <div>
-      <Container
-        className="mt-5"
-        data-aos="slide-right"
-        data-aos-delay="100"
-        data-aos-duration="2000"
-      >
+      <Container className="mt-5">
         <Row className="justity-content-center">
-          <Col sm={12} md={6} lg={6} className="px-4 mt-5">
+          <Col
+            sm={12}
+            md={6}
+            lg={6}
+            className="px-4 mt-5"
+            // data-aos="slide-right"
+            // data-aos-delay="100"
+            // data-aos-duration="1000"
+          >
             <img
               src={Faq}
               alt="sending message png"
@@ -19,7 +22,15 @@ const Contact = () => {
               loading="lazy"
             />
           </Col>
-          <Col sm={12} md={6} lg={6} className="px-4 text-light mt-5">
+          <Col
+            sm={12}
+            md={6}
+            lg={6}
+            className="px-4 text-light mt-5"
+            // data-aos="slide-left"
+            // data-aos-delay="200"
+            // data-aos-duration="2000"
+          >
             <p>
               I'd love if you reached out to me. Even if it's just to say
               "Hey!". Don't hesitate! Drop me a line and I’ll get back to you
