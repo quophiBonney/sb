@@ -18,9 +18,20 @@ const Projects = () => {
               className="img-fluid img-responsive"
               id="project-img"
               loading="lazy"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              data-aos-duration="1000"
             />
           </Col>
-          <Col sm={12} md={12} lg={6} className="text-light mt-3">
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="text-light mt-3"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
             <h3 className="app-title mt-2">BTbue</h3>
             <div className="button-group">
               <button
@@ -63,7 +74,80 @@ const Projects = () => {
               Source Code
             </Link>
           </Col>
-          <Col sm={12} md={12} lg={6} className="mt-5 ">
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="mt-5 "
+            data-aos="zoom-out"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <img
+              src={Ecommerce}
+              alt="ecommerce product listing png"
+              className="img-fluid img-responsive"
+              id="project-img"
+              loading="lazy"
+            />
+          </Col>
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="text-light mt-3"
+            data-aos="zoom-out"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
+            <h3 className="app-title mt-2">Ecommerce Web App</h3>
+            <div className="button-group">
+              <button
+                className="btn text-light"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                HTML
+              </button>
+              <button
+                className="btn text-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                CSS
+              </button>
+              <button
+                className="btn text-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                PHP/MySQL
+              </button>
+            </div>
+            <p>
+              A software application that allows you to add data into MySQL
+              database and also displays in table, update the data and also
+              delete the data.
+            </p>
+            <Link
+              to="https://www.youtube.com/watch?v=1PY102CFkd0"
+              className="btn btn-light text-decoration-none m-2"
+            >
+              View Demo
+            </Link>
+            <Link
+              to="https://www.youtube.com/watch?v=1PY102CFkd0"
+              className="btn btn-light text-decoration-none m-2"
+            >
+              Source Code
+            </Link>
+          </Col>
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="mt-5"
+            data-aos="slide-right"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
             <img
               src={Solomon}
               alt="Solomon Bonney Institute"
@@ -72,7 +156,15 @@ const Projects = () => {
               loading="lazy"
             />
           </Col>
-          <Col sm={12} md={12} lg={6} className="text-light mt-3 ">
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="text-light mt-3"
+            data-aos="slide-left"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
             <h3 className="app-title mt-2">Solomon Bonney Institute</h3>
             <div className="button-group">
               <button
@@ -109,55 +201,6 @@ const Projects = () => {
             </Link>
             <Link
               to="https://github.com/quophiBonney/solomonbonneyinstitute"
-              className="btn btn-light text-decoration-none m-2"
-            >
-              Source Code
-            </Link>
-          </Col>
-          <Col sm={12} md={12} lg={6} className="mt-5 ">
-            <img
-              src={Ecommerce}
-              alt="ecommerce product listing png"
-              className="img-fluid img-responsive"
-              id="project-img"
-              loading="lazy"
-            />
-          </Col>
-          <Col sm={12} md={12} lg={6} className="text-light mt-3 ">
-            <h3 className="app-title mt-2">Ecommerce Web App</h3>
-            <div className="button-group">
-              <button
-                className="btn text-light"
-                style={{background: "rgba(0, 0, 0, 0.6)"}}
-              >
-                HTML
-              </button>
-              <button
-                className="btn text-light m-2"
-                style={{background: "rgba(0, 0, 0, 0.6)"}}
-              >
-                CSS
-              </button>
-              <button
-                className="btn text-light m-2"
-                style={{background: "rgba(0, 0, 0, 0.6)"}}
-              >
-                PHP/MySQL
-              </button>
-            </div>
-            <p>
-              A software application that allows you to add data into MySQL
-              database and also displays in table, update the data and also
-              delete the data.
-            </p>
-            <Link
-              to="https://www.youtube.com/watch?v=1PY102CFkd0"
-              className="btn btn-light text-decoration-none m-2"
-            >
-              View Demo
-            </Link>
-            <Link
-              to="https://www.youtube.com/watch?v=1PY102CFkd0"
               className="btn btn-light text-decoration-none m-2"
             >
               Source Code

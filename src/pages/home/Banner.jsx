@@ -21,7 +21,7 @@ function Banner() {
               className="banner-container text-light mt-3"
               data-aos="slide-right"
               data-aos-delay="100"
-              data-aos-duration="1000"
+              data-aos-duration="2000"
             >
               <h1 className="text-uppercase name">
                 <FaHandshake />

@@ -4,7 +4,12 @@ import Faq from "../../images/faq.png";
 const Contact = () => {
   return (
     <div>
-      <Container className="mt-5">
+      <Container
+        className="mt-5"
+        data-aos="slide-right"
+        data-aos-delay="100"
+        data-aos-duration="2000"
+      >
         <Row className="justity-content-center">
           <Col sm={12} md={6} lg={6} className="px-4 mt-5">
             <img
