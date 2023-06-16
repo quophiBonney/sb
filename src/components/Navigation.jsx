@@ -18,9 +18,9 @@ function Navigation() {
             Solomon Bonney
           </h4>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav">
+        <span>
           <HiMenuAlt3 className={NavCSS.toggleIcon} />
-        </Navbar.Toggle>
+        </span>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>

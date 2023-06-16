@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import Movie from "../../images/moviestreaming.png";
 import Solomon from "../../images/solomonbonneyinstitute.png";
 import Ecommerce from "../../images/newPhone.jpg";
+import Youtube from "../../images/youtube.png";
 const Projects = () => {
   return (
     <div>
@@ -206,6 +207,84 @@ const Projects = () => {
             </Link>
             <Link
               to="https://github.com/quophiBonney/solomonbonneyinstitute"
+              className="btn btn-light text-decoration-none m-2"
+            >
+              Source Code
+            </Link>
+          </Col>
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="mt-5"
+            data-aos="slide-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <img
+              src={Youtube}
+              alt="youtube video fetcher png"
+              className="img-fluid img-responsive"
+              id="project-img"
+              loading="lazy"
+            />
+          </Col>
+          <Col
+            sm={12}
+            md={12}
+            lg={6}
+            className="text-light mt-3"
+            data-aos="slide-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+          >
+            <h3 className="app-title mt-2">YTube Video Fetcher</h3>
+            <div className="button-group">
+              <button
+                className="btn text-light"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                HTML
+              </button>
+              <button
+                className="btn text-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                CSS
+              </button>
+              <button
+                className="btn text-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                Bootstrap
+              </button>
+              <button
+                className="btn text-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                JavaScript
+              </button>
+              <button
+                className="btn text-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.6)"}}
+              >
+                Youtube API
+              </button>
+            </div>
+            <p>
+              YTube Video Fetcher is a web application that accepts the user
+              input then fetch and display youtube videos based on the search
+              query. It is mobile friendly and easy to be navigated with HTML5
+              semantics.
+            </p>
+            <Link
+              to="https://quophibonney.github.io/youtube_video"
+              className="btn btn-light text-decoration-none m-2"
+            >
+              View Demo
+            </Link>
+            <Link
+              to="https://github.com/quophiBonney/youtube_video"
               className="btn btn-light text-decoration-none m-2"
             >
               Source Code
