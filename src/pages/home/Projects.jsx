@@ -41,19 +41,19 @@ const Projects = () => {
             <h3 className="app-title mt-2">BTbue</h3>
             <div className="button-group">
               <button
-                className="btn text-light"
+                className="btn text-light btn-outline-light"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 React
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 Movie API
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 AOS Library
@@ -109,19 +109,19 @@ const Projects = () => {
             <h3 className="app-title mt-2">Ecommerce Web App</h3>
             <div className="button-group">
               <button
-                className="btn text-light"
+                className="btn text-light btn-outline-light"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 HTML
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 CSS
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 PHP/MySQL
@@ -174,19 +174,19 @@ const Projects = () => {
             <h3 className="app-title mt-2">Solomon Bonney Institute</h3>
             <div className="button-group">
               <button
-                className="btn text-light"
+                className="btn text-light btn-outline-light"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 React
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 CSS
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 AOS Library
@@ -241,31 +241,31 @@ const Projects = () => {
             <h3 className="app-title mt-2">YTube Video Fetcher</h3>
             <div className="button-group">
               <button
-                className="btn text-light"
-                style={{background: "rgba(0, 0, 0, 0.6)"}}
+                className="btn btn-outline-light text-light"
+                style={{background: "rgba(0, 0, 0, 0.9)"}}
               >
                 HTML
               </button>
               <button
-                className="btn text-light m-2"
-                style={{background: "rgba(0, 0, 0, 0.6)"}}
+                className="btn text-light btn-outline-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.9)"}}
               >
                 CSS
               </button>
               <button
-                className="btn text-light m-2"
-                style={{background: "rgba(0, 0, 0, 0.6)"}}
+                className="btn text-light btn-outline-light m-2"
+                style={{background: "rgba(0, 0, 0, 0.9)"}}
               >
                 Bootstrap
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 JavaScript
               </button>
               <button
-                className="btn text-light m-2"
+                className="btn text-light btn-outline-light m-2"
                 style={{background: "rgba(0, 0, 0, 0.6)"}}
               >
                 Youtube API

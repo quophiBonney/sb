@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import Bonney from "../../images/bg.jpg";
+import Bonney from "../../images/ok.png";
 import CV from "../../images/cv.pdf";
 import {
   BsDownload,

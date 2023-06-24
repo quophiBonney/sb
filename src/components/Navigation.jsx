@@ -18,29 +18,29 @@ function Navigation() {
             Solomon Bonney
           </h4>
         </Navbar.Brand>
-        <span>
-          <HiMenuAlt3 className={NavCSS.toggleIcon} />
-        </span>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav">
+          <span>
+            <HiMenuAlt3 className={NavCSS.toggleIcon} />
+          </span>
+        </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto"></Nav>
-          <Nav>
-            <div className={NavCSS.btnGroup}>
-              <Link
-                to="https://wa.me/+233596840018"
-                className="btn"
-                id={NavCSS.btnSearch}
-              >
-                Get In Touch
-              </Link>
-              <Link
-                to="https://wa.me/+233596840018"
-                className="btn"
-                id={NavCSS.registerBtn}
-              >
-                Join My Community
-              </Link>
-            </div>
-          </Nav>
+          <Nav className="me-auto" />
+          <div className={NavCSS.btnGroup}>
+            <Link
+              to="https://wa.me/+233596840018"
+              className="btn"
+              id={NavCSS.btnSearch}
+            >
+              Get In Touch
+            </Link>
+            <Link
+              to="https://wa.me/+233596840018"
+              className="btn"
+              id={NavCSS.registerBtn}
+            >
+              Join My Community
+            </Link>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
