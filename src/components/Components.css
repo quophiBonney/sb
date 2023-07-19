@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 *,*::after, *::before {
     padding: 0;
     box-sizing: border-box;
@@ -11,8 +11,8 @@
     height: auto;
 }
 .logo {
-    font-size: 20px;
-    font-family: "Great Vibes", cursive;
+    font-size: 25px;
+    font-family: "Cookie", cursive;
 }
 .toggleIcon {
     color: #fff;
