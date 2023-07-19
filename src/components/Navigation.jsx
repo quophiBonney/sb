@@ -22,7 +22,7 @@ function Navigation() {
           id="navbar-toggle"
           aria-controls="responsive-navbar-nav"
           onFocus={e => e.target.blur()}
-          style={{border: "0"}}
+          style={{border: "0px", margin: "0px"}}
         >
           <span>
             <HiMenuAlt3
