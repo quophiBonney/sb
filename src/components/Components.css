@@ -28,4 +28,7 @@
   .navbar {
     background: rgba(13, 12, 12, 0.938);
   }
+  .toggleIcon {
+    margin: 0;
+  }
 }
