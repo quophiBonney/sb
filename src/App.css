@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/** Global Styling ***/
 *, *::after, *::before {
   padding: 0;
   margin: 0;
@@ -11,14 +12,17 @@ html {
 body {
   height: 100vh;
   overflow-x: hidden;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Archivo Black', sans-serif;
+  overflow: visible;
 }
 p, li {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .btn {
   font-family: 'Archivo Black', sans-serif;
   font-weight: 800;
@@ -30,103 +34,85 @@ p, li {
   height: 100vh;
 }
 .gif {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
-.banner {
-  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('./../src/images/bg1.jpg');
-  max-width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  height: 450px;
-  display: flex;
+/** Hero Styling **/
+.hero {
+  background: rgba(13, 12, 12, 0.938);
+  height: auto;
+}
+.hero-gap {
+  margin-top: 13em;
+  margin-bottom: 14em;
+}
+.main-text {
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(85, 167, 248, 0.982);
+  font-weight: 800!important;
+  text-transform: capitalize;
+}
+.icon-container a{
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50px;
+  margin-left: 1.2rem;
+}
+.icon-container img {
+  padding: 10px;
+}
+/** About Me Styling **/
+.aboutme {
+  background: rgba(13, 12, 12, 0.938);
+  height: auto;
+}
+.about-text-gap {
+  margin-top: 70px;
+}
+.icon-container {
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
-}
-.banner-container {
   text-align: center;
 }
-.name {
-  font-size: 50px;
-  
+.my-pic {
+  border-radius: 20px;
+  animation: fadeIn 2s infinite;
 }
-.icons {
-  font-size: 20px;
-  color: #fff;
+@keyframes fadeIn {
+  0% {
+    filter: brightness(15%);
+    opacity: 0.7;
+  }
+  50% {
+    filter: brightness(60%);
+    opacity: 1;
+  }
+  100% {
+    filter: brightness(15%);
+    opacity: 0.7;
+  }
 }
-.icons:hover {
-  transform: translateY(-5px);
-  transition: .5s all ease;
-}
-img {
- 
-  max-width: 100%;
-  height: auto;
-}
-#mypic {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 0% 20% 0% 20%/0% 20% 0% 20%;
-}
-#project-img {
-  transform: rotate(8deg);
-  transition: .5s all ease;
-}
-#project-img:hover {
-  transform: rotate(0deg);
-  cursor: pointer;
-  opacity: 0.7;
-}
-.cert-container {
-  background: rgba(79, 79, 79, 0.749);
-  transform: scale(0.95);
-  border-radius: 10px;
-}
-.line {
-  border-bottom: 5px solid rgba(79, 79, 79, 0.749);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
+/*** Skills Styling ***/
 .skill-container {
+  background: #fff;
+  transform: scale(0.95);
   border-radius: 10px;
 }
 .tech-icons {
   color: #fff;
-  font-size: 40px;
-  margin-top: 10px;
-  animation: rotate 2s linear infinite;
+  font-size: 5.5em;
 }
-.tech-name {
-  font-size: 16px;
-}
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg) scale(1);
+
+
+@media screen and (max-width: 834px) {
+  .main-text {
+    font-size: 1.5em;
   }
-  50% {
-    transform: scale(270deg), scale(1.1);
-  }
-  100% {
-   transform: rotate(360deg);
-  }
-}
-@media screen and (max-width: 768px) {
-  .name {
-    font-size: 23px;
-    font-weight: 800;
-  }
-  .banner-container {
-    text-align: start;
-  }
-  .laughingEmoji {
+  .second-paragraph {
     display: none;
   }
-  #mypic {
-    max-width: 100%;
-    height: 300px;
+  .about-text-gap {
+    margin: 0;
   }
 }

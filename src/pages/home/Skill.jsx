@@ -1,141 +1,215 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import {AiFillHtml5} from "react-icons/ai";
-import {BsGit, BsGithub, BsWordpress} from "react-icons/bs";
-import {DiCss3, DiBootstrap, DiJqueryLogo, DiReact} from "react-icons/di";
-import {TbBrandJavascript} from "react-icons/tb";
-import {SiPhp, SiMysql, SiFirebase} from "react-icons/si";
+import htmlsvg from "../../images/html-svg.svg";
+import csssvg from "../../images/css-svg.svg";
+import jssvg from "../../images/javascript.svg";
+import bootstrapsvg from "../../images/bootstrap-svg.svg";
+import reactsvg from "../../images/react-svg.svg";
+import wordpresssvg from "../../images/wordpress-svgrepo-com.svg";
 const Skill = () => {
   return (
-    <div>
+    <div className="container-fluid aboutme">
       <Container
-        className="mt-5"
+        className=""
         data-aos="slide-right"
         data-aos-delay="100"
         data-aos-duration="2000"
       >
         <Row className="justify-content-center">
-          <h3 className="text-light text-uppercase section-title">Skills</h3>
-          <hr className="text-light" />
+          <h3 className="text-dark text-uppercase section-title mt-5">
+            Skills
+          </h3>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <AiFillHtml5 className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">HTML5</h5>
+            <div className="d-flex">
+              <div className="py-4">
+                <img
+                  src={htmlsvg}
+                  alt="html svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">HTML5</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <DiCss3 className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">CSS3</h5>
+            <div className="d-flex">
+              <div className="py-4">
+                <img
+                  src={csssvg}
+                  alt="css svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">CSS3</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <TbBrandJavascript className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">JavaScript</h5>
+            <div className="d-flex">
+              <div className="py-4">
+                <img
+                  src={jssvg}
+                  alt="js svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">JavaScript</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <DiBootstrap className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">Bootstrap</h5>
+            <div className="d-flex">
+              <div className="py-4">
+                <img
+                  src={bootstrapsvg}
+                  alt="bootstrap svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">Bootstrap</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <DiJqueryLogo className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">JQuery</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">JQuery</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <DiReact className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">React</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">React</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <BsGit className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">Git</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">Git</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <BsGithub className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">Github</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">Github</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <SiPhp className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">PHP</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">PHP</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <SiMysql className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">MySQL</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">MySQL</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <BsWordpress className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">WordPress</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5 tech-name">WordPress</h5>
+              </div>
+            </div>
           </Col>
           <Col
-            xs={4}
-            sm={4}
-            md={4}
-            lg={2}
-            className="px-4 cert-container text-center skill-container mb-3"
+            xs={12}
+            sm={12}
+            md={6}
+            lg={3}
+            className="cert-container text-center skill-container mb-3"
           >
-            <SiFirebase className="tech-icons" />
-            <h5 className="text-light py-3 tech-name">Firebase</h5>
+            <div className="d-flex">
+              <div className="py-4"></div>
+              <div className="ms-auto">
+                <h5 className="text-dark mt-5">Firebase</h5>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>

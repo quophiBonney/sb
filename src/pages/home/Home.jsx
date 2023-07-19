@@ -1,21 +1,16 @@
 import React from "react";
-import Banner from "./Banner";
-import About from "../home/About";
-import Projects from "../home/Projects";
-import Certifications from "../home/Certifications";
-import Skill from "../home/Skill";
-import Contact from "../home/Contact";
-function Home() {
+import Skill from "./Skill";
+import Hero from "./Hero";
+import AboutMe from "./AboutMe";
+
+const Home = () => {
   return (
-    <div>
-      <Banner />
-      <About />
+    <>
+      <Hero />
+      <AboutMe />
       <Skill />
-      <Projects />
-      <Certifications />
-      <Contact />
-    </div>
+    </>
   );
-}
+};
 
 export default Home;

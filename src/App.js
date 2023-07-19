@@ -5,25 +5,21 @@ import Home from '../src/pages/home/Home'
 import Footer from './components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Preloader from './components/Preloader';
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
+import Skill from './pages/home/Skill';
+import Projects from './pages/home/Projects';
 function App() {
   AOS.init();
-  const [loading, setLoading] = useState(true);
-  useEffect(()=> {
-    setTimeout(()=> {
-      setLoading(false)
-    }, 5000)
-  }, [])
   return (
-    <div>
-      {loading ? <Preloader/> : <div><Router>
+    <>
+      <Router>
       <Navigation/>
       <Home/>
+      <Routes path="/skills" element={<Skill/>}/>
+      <Routes path="/projects" element={<Projects/>}/>
       <Footer/>
-      </Router></div>}
-      
-    </div>
+      </Router>
+      </>
   );
 }
 
