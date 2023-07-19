@@ -39,9 +39,9 @@ const AboutMe = () => {
                 <a
                   href={mycv}
                   download={true}
-                  className="btn btn-light text-dark"
+                  className="btn btn-light text-dark mt-3"
                 >
-                  Download CV
+                  Download Resume
                   <BsDownload className="m-2" />
                 </a>
               </div>
