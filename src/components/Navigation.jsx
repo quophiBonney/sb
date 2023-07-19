@@ -15,7 +15,7 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="/">
           <div>
-            <p className="text-uppercase text-light logo">Bonney</p>
+            <p className="text-light logo">Quophi Bonney</p>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle

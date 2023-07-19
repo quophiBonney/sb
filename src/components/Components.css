@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 *,*::after, *::before {
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +12,7 @@
 }
 .logo {
     font-size: 20px;
+    font-family: "Great Vibes", cursive;
 }
 .toggleIcon {
     color: #fff;
@@ -21,12 +23,16 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 @media screen and (max-width: 991px) {
   .navbar {
     background: rgba(13, 12, 12, 0.938);
+  }
+  .logo {
+    margin-top: 10px;
   }
   .toggleIcon {
     margin: 0;
