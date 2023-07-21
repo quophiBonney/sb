@@ -10,21 +10,21 @@ const AboutMe = () => {
       <div className="container-fluid aboutme">
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={6} lg={7} className="text-light mt-5 ">
+            <Col xs={12} sm={12} md={6} lg={7} className="text-light mt-4">
               <div>
                 <h3 className="title about-text-gap text-uppercase">
                   About Me
                 </h3>
                 <p className="">
-                  👋 Hi there! I'm Bonney Quophi Solomon, an alumnus of IPMC
+                  👋 Hi there! I'm Solomon Kofi Bonney, an alumnus of IPMC
                   College & Technology. 💪💻 As a hardworking and passionate
                   front-end developer, I'm dedicated to crafting exceptional
                   projects that leave a lasting impression. 🚀✨ With a solid
                   skill set in HTML, CSS, Bootstrap, Node.js, Javascript, Git &
-                  GitHub, React.js, Redux, PHP, MySQL, Vite.js, Firebase,
-                  Tailwind.css I'm ready to bring your ideas to life! 🎉🌟 📚 I
-                  believe in constant growth and staying up-to-date with the
-                  latest developments in the software development world. 🌱
+                  GitHub, React.js, Redux, PHP, MySQL, Vite.js, Firebase. I'm
+                  ready to bring your ideas to life! 🎉🌟 📚 I believe in
+                  constant growth and staying up-to-date with the latest
+                  developments in the software development world. 🌱
                 </p>
                 <p className="second-paragraph">
                   That's why I invest a significant amount of time and effort
@@ -42,7 +42,7 @@ const AboutMe = () => {
                 <a
                   href={mycv}
                   download={true}
-                  className="btn btn-light text-dark mt-3"
+                  className="btn btn-light text-dark mt-2"
                 >
                   Download Resume
                   <BsDownload className="m-2" />

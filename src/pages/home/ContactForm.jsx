@@ -2,7 +2,6 @@ import React, {useState, useRef} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import emailjs from "@emailjs/browser";
 import {useNavigate} from "react-router-dom";
-import side from "../../images/faq.png";
 const ContactForm = () => {
   const navigate = useNavigate();
   const [sendMessage, setSendMessage] = useState("Send Message");
@@ -66,15 +65,7 @@ const ContactForm = () => {
       <div className="container-fluid aboutme">
         <Container className="">
           <Row className="justify-content-center">
-            <Col sm={12} md={6} lg={6} className="mt-5">
-              <img
-                src={side}
-                alt="friends reading message"
-                className="img-fluid w-100 h-100 w-100 img-responsive my-pic contact-form-img"
-                style={{objectFit: "cover"}}
-              />
-            </Col>
-            <Col sm={12} md={6} lg={6} className="mt-5 text-light">
+            <Col sm={12} md={7} lg={7} className="mt-5 text-light">
               <div className="card-header text-center py-3">
                 <h3 className="third-text card-title">Let Me Hear From You</h3>
                 <p className="paragraph">
@@ -174,14 +165,14 @@ const ContactForm = () => {
                     <input
                       type="submit"
                       value="Clear Fields"
-                      className="btn btn-light text-dark btn-clear-fields py-2 form-control"
+                      className="btn btn-clear-fields py-2 form-control"
                     />
                   </div>
                   <div className="form-group mt-3">
                     <input
                       type="submit"
                       value={sendMessage}
-                      className="btn text-light btn-send-message py-2 mb-3 form-control"
+                      className="btn btn-send-message py-2 mb-3 form-control"
                     />
                   </div>
                 </div>
