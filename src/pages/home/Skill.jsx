@@ -5,7 +5,13 @@ import csssvg from "../../images/css-svg.svg";
 import jssvg from "../../images/javascript.svg";
 import bootstrapsvg from "../../images/bootstrap-svg.svg";
 import reactsvg from "../../images/react-svg.svg";
+import githubsvg from "../../images/github-142-svgrepo-com.svg";
+import firebasesvg from "../../images/firebase-svg.svg";
+import mysqlsvg from "../../images/mysql-svg.svg";
+import phpsvg from "../../images/php-svgrepo-com.svg";
 import wordpresssvg from "../../images/wordpress-svgrepo-com.svg";
+import reactnativesvg from "../../images/react-native-svg.svg";
+import vitesvg from "../../images/vite-svg.svg";
 const Skill = () => {
   return (
     <div className="container-fluid aboutme">
@@ -16,9 +22,7 @@ const Skill = () => {
         data-aos-duration="2000"
       >
         <Row className="justify-content-center">
-          <h3 className="text-dark text-uppercase section-title mt-5">
-            Skills
-          </h3>
+          <h3 className="title text-light text-uppercase mt-5">My Skills</h3>
           <Col
             xs={12}
             sm={12}
@@ -35,7 +39,9 @@ const Skill = () => {
                 />
               </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">HTML5</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  HTML5
+                </h5>
               </div>
             </div>
           </Col>
@@ -55,7 +61,9 @@ const Skill = () => {
                 />
               </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">CSS3</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  CSS3
+                </h5>
               </div>
             </div>
           </Col>
@@ -75,7 +83,9 @@ const Skill = () => {
                 />
               </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">JavaScript</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  JavaScript
+                </h5>
               </div>
             </div>
           </Col>
@@ -95,7 +105,9 @@ const Skill = () => {
                 />
               </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">Bootstrap</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  Bootstrap
+                </h5>
               </div>
             </div>
           </Col>
@@ -107,9 +119,17 @@ const Skill = () => {
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={reactsvg}
+                  alt="reactjs svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">JQuery</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  React
+                </h5>
               </div>
             </div>
           </Col>
@@ -121,9 +141,17 @@ const Skill = () => {
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={githubsvg}
+                  alt="github svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">React</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  Github
+                </h5>
               </div>
             </div>
           </Col>
@@ -135,9 +163,17 @@ const Skill = () => {
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={reactnativesvg}
+                  alt="react native svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">Git</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  React Native
+                </h5>
               </div>
             </div>
           </Col>
@@ -149,9 +185,15 @@ const Skill = () => {
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={phpsvg}
+                  alt="php svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">Github</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">PHP</h5>
               </div>
             </div>
           </Col>
@@ -160,12 +202,20 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-3"
+            className="cert-container text-center skill-container mb-5"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={mysqlsvg}
+                  alt="mysql svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">PHP</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  MySQL
+                </h5>
               </div>
             </div>
           </Col>
@@ -174,12 +224,20 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-3"
+            className="cert-container text-center skill-container mb-5"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={wordpresssvg}
+                  alt="wordpress svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">MySQL</h5>
+                <h5 className="text-dark mt-5 tech-name text-uppercase">
+                  WordPress
+                </h5>
               </div>
             </div>
           </Col>
@@ -188,12 +246,18 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-3"
+            className="cert-container text-center skill-container mb-5"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={firebasesvg}
+                  alt="firebase svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5 tech-name">WordPress</h5>
+                <h5 className="text-dark mt-5 text-uppercase">Firebase</h5>
               </div>
             </div>
           </Col>
@@ -202,12 +266,18 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-3"
+            className="cert-container text-center skill-container mb-5"
           >
             <div className="d-flex">
-              <div className="py-4"></div>
+              <div className="py-4">
+                <img
+                  src={vitesvg}
+                  alt="vite svg"
+                  className="img-fluid img-responsive"
+                />
+              </div>
               <div className="ms-auto">
-                <h5 className="text-dark mt-5">Firebase</h5>
+                <h5 className="text-dark mt-5 text-uppercase">Vite</h5>
               </div>
             </div>
           </Col>

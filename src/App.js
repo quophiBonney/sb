@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import { BrowserRouter as Router, Routes } from 'react-router-dom';
 import Skill from './pages/home/Skill';
 import Projects from './pages/home/Projects';
+import MessageSent from './pages/home/MessageSent';
 function App() {
   AOS.init();
   return (
@@ -15,8 +16,7 @@ function App() {
       <Router>
       <Navigation/>
       <Home/>
-      <Routes path="/skills" element={<Skill/>}/>
-      <Routes path="/projects" element={<Projects/>}/>
+      <Routes path="/success" element={<MessageSent/>}/>
       <Footer/>
       </Router>
       </>

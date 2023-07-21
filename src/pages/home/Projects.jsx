@@ -1,7 +1,11 @@
 import React from "react";
-
+import Slider from "./Slider";
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <>
+      <Slider />
+    </>
+  );
 };
 
 export default Projects;

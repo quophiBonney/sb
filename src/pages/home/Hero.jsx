@@ -1,12 +1,5 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
-import {
-  BsGithub,
-  BsInstagram,
-  BsLinkedin,
-  BsTiktok,
-  BsYoutube,
-} from "react-icons/bs";
 import {Typewriter, Cursor} from "react-simple-typewriter";
 import instagramsvg from "../../images/instagram-svg.svg";
 import youtubesvg from "../../images/youtube-svgrepo-com.svg";
@@ -16,7 +9,7 @@ const Hero = () => {
   const text = Typewriter({
     words: [
       "Hello, I'm Bonney ...👋",
-      "front-end developer💻",
+      "front-end developer...💻",
       "Bringing Ideas To Life...💡",
       "Aim At Client's Satisfaction...🔥",
       "Bridging Design & Code...🎯",

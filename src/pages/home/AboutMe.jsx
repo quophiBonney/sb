@@ -10,9 +10,12 @@ const AboutMe = () => {
       <div className="container-fluid aboutme">
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={6} lg={7} className="text-light mt-5">
+            <Col xs={12} sm={12} md={6} lg={7} className="text-light mt-5 ">
               <div>
-                <p className="about-text-gap">
+                <h3 className="title about-text-gap text-uppercase">
+                  About Me
+                </h3>
+                <p className="">
                   👋 Hi there! I'm Bonney Quophi Solomon, an alumnus of IPMC
                   College & Technology. 💪💻 As a hardworking and passionate
                   front-end developer, I'm dedicated to crafting exceptional
