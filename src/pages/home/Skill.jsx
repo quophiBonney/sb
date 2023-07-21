@@ -202,7 +202,7 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-5"
+            className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
               <div className="py-4">
@@ -224,7 +224,7 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-5"
+            className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
               <div className="py-4">
@@ -246,7 +246,7 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-5"
+            className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
               <div className="py-4">
@@ -266,7 +266,7 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
-            className="cert-container text-center skill-container mb-5"
+            className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
               <div className="py-4">
