@@ -15,12 +15,7 @@ import vitesvg from "../../images/vite-svg.svg";
 const Skill = () => {
   return (
     <div className="container-fluid aboutme">
-      <Container
-        className=""
-        data-aos="slide-right"
-        data-aos-delay="100"
-        data-aos-duration="2000"
-      >
+      <Container className="">
         <Row className="justify-content-center">
           <h3 className="title text-light text-uppercase mt-5">My Skills</h3>
           <Col
