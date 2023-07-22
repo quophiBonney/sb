@@ -17,19 +17,19 @@ const ContactForm = () => {
     // Validate input fields
     const newErrors = [];
     if (firstName.trim() === "") {
-      newErrors.push("First Name is required");
+      newErrors.push("First name is required");
     }
     if (lastName.trim() === "") {
       newErrors.push("Last name is required");
     }
     if (email.trim() === "") {
-      newErrors.push("Email is required");
+      newErrors.push("Email address is required");
     }
     if (contact.trim() === "") {
       newErrors.push("Contact is required");
     }
     if (message.trim() === "") {
-      newErrors.push("Message is required");
+      newErrors.push("Please type a message");
     }
     // Update errors state
     setErrors(newErrors);
@@ -74,20 +74,6 @@ const ContactForm = () => {
               </div>
               <form ref={form} onSubmit={sendEmail}>
                 <div className="row">
-                  {errors.map((error, index) => {
-                    return (
-                      <div className="col-sm-6 col-md-4 col-lg-4">
-                        <span
-                          key={index}
-                          className="alert alert-danger d-block my-2"
-                        >
-                          {error}
-                        </span>
-                      </div>
-                    );
-                  })}
-                </div>
-                <div className="row">
                   <div className="col-sm-12 col-md-6 col-lg-6">
                     <div className="form-group mt-3">
                       <label htmlFor="first name">
@@ -101,6 +87,11 @@ const ContactForm = () => {
                         onChange={event => setFirstName(event.target.value)}
                         className="form-control py-2"
                       />
+                      {errors.includes("First name is required") && (
+                        <div className="alert alert-danger mt-2">
+                          First Name is required
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-6 col-lg-6">
@@ -116,6 +107,11 @@ const ContactForm = () => {
                         onChange={event => setLastName(event.target.value)}
                         className="form-control py-2"
                       />
+                      {errors.includes("Last name is required") && (
+                        <div className="alert alert-danger mt-2">
+                          Last Name is required
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-6 col-lg-6">
@@ -131,6 +127,11 @@ const ContactForm = () => {
                         onChange={event => setEmail(event.target.value)}
                         className="form-control py-2"
                       />
+                      {errors.includes("Email address is required") && (
+                        <div className="alert alert-danger mt-2">
+                          Email address is required
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="col-sm-12 col-md-6 col-lg-6">
@@ -146,6 +147,11 @@ const ContactForm = () => {
                         onChange={event => setContact(event.target.value)}
                         className="form-control py-2"
                       />
+                      {errors.includes("Contact is required") && (
+                        <div className="alert alert-danger mt-2">
+                          Contact is required
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="form-group mt-3">
@@ -160,6 +166,11 @@ const ContactForm = () => {
                       onChange={event => setMessage(event.target.value)}
                       className="form-control"
                     />
+                    {errors.includes("Please type a message") && (
+                      <div className="alert alert-danger mt-2">
+                        Please type a message
+                      </div>
+                    )}
                   </div>
                   <div className="form-group mt-3">
                     <input
