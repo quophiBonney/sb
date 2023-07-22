@@ -53,7 +53,7 @@ const ContactForm = () => {
               console.log(error.text);
             }
           );
-        alert("You've succesfuly sent me a message...");
+        alert("Message sent successfully");
       }, 3500);
       setTimeout(() => {
         setSendMessage("Send Message");
