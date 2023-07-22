@@ -40,8 +40,8 @@ const ContactForm = () => {
       setTimeout(() => {
         emailjs
           .sendForm(
-            "service_72s3mjd",
-            "template_rz55686",
+            "service_2ccvxdk",
+            "template_c014sdc",
             form.current,
             "eWajEKtVogHGSP8cC"
           )
@@ -53,7 +53,7 @@ const ContactForm = () => {
               console.log(error.text);
             }
           );
-        navigate("/success");
+        alert("You've succesfuly sent me a message...");
       }, 3500);
       setTimeout(() => {
         setSendMessage("Send Message");

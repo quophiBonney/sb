@@ -19,7 +19,6 @@ html {
 body {
   height: 100vh;
   overflow-x: hidden;
-  overflow: visible;
 }
 p, li {
   font-family: 'Poppins', sans-serif;

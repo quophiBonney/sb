@@ -36,32 +36,32 @@ function Navigation() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Link to="/about" onClick={handleLinkClick} className="m-2 navlink">
+            <Link to="#about" onClick={handleLinkClick} className="m-2 navlink">
               About
             </Link>
             <Link
-              to="/skills"
+              to="#skills"
               onClick={handleLinkClick}
               className="m-2 navlink"
             >
               Skills
             </Link>
             <Link
-              to="/projects"
+              to="#projects"
               onClick={handleLinkClick}
               className="m-2 navlink"
             >
               Projects
             </Link>
             <Link
-              to="/clones"
+              to="#clones"
               onClick={handleLinkClick}
               className="m-2 navlink"
             >
               Clones
             </Link>
             <Link
-              to="/contact"
+              to="#contact"
               onClick={handleLinkClick}
               className="m-2 navlink"
             >
