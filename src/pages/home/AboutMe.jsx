@@ -7,7 +7,7 @@ import {BsDownload} from "react-icons/bs";
 const AboutMe = () => {
   return (
     <>
-      <div className="container-fluid aboutme">
+      <div className="container-fluid aboutme" id="about">
         <Container>
           <Row>
             <Col xs={12} sm={12} md={6} lg={7} className="text-light mt-4">

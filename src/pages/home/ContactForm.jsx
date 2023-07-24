@@ -62,7 +62,7 @@ const ContactForm = () => {
   };
   return (
     <>
-      <div className="container-fluid aboutme">
+      <div className="container-fluid aboutme" id="contact">
         <Container className="">
           <Row className="justify-content-center">
             <Col sm={12} md={7} lg={7} className="mt-5 text-light">
@@ -88,7 +88,7 @@ const ContactForm = () => {
                         className="form-control py-2"
                       />
                       {errors.includes("First name is required") && (
-                        <div className="alert alert-danger mt-2">
+                        <div className="text-danger mt-2">
                           First Name is required
                         </div>
                       )}
@@ -108,7 +108,7 @@ const ContactForm = () => {
                         className="form-control py-2"
                       />
                       {errors.includes("Last name is required") && (
-                        <div className="alert alert-danger mt-2">
+                        <div className="text-danger mt-2">
                           Last Name is required
                         </div>
                       )}
@@ -128,7 +128,7 @@ const ContactForm = () => {
                         className="form-control py-2"
                       />
                       {errors.includes("Email address is required") && (
-                        <div className="alert alert-danger mt-2">
+                        <div className="text-danger mt-2">
                           Email address is required
                         </div>
                       )}
@@ -148,7 +148,7 @@ const ContactForm = () => {
                         className="form-control py-2"
                       />
                       {errors.includes("Contact is required") && (
-                        <div className="alert alert-danger mt-2">
+                        <div className="text-danger mt-2">
                           Contact is required
                         </div>
                       )}
@@ -167,7 +167,7 @@ const ContactForm = () => {
                       className="form-control"
                     />
                     {errors.includes("Please type a message") && (
-                      <div className="alert alert-danger mt-2">
+                      <div className="text-danger mt-2">
                         Please type a message
                       </div>
                     )}

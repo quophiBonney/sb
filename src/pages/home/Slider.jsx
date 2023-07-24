@@ -108,7 +108,7 @@ const Slider = () => {
               <p className="mt-3 text-light">
                 This is a platform built to help Ghanaians know the charges on
                 their mobile money withdrawals. Ghana introduced a new charge in
-                the form of tax on all mobile money above &8373;100 called
+                the form of tax on all mobile money above &#8373;100 called
                 e-levy. The introduction of this e-levy brought a lot of
                 confusion so I decided to curb the situation. During the
                 building of this project, I really came to understood the
@@ -119,6 +119,53 @@ const Slider = () => {
               <a
                 href="https://sonobo-app.vercel.app"
                 className="btn text-light btn-view-demo"
+              >
+                View Demo
+                <BsEye className="m-2" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-container">
+            <div className="">
+              <img
+                src={moviestream}
+                alt="movie streaming png"
+                className="img-fluid"
+              />
+              <h4 className="project-name  text-light text-uppercase">BTube</h4>
+              <img
+                src={githubsvg}
+                alt="github svg"
+                className="img-fluid tech-used m-2"
+              />
+              <img
+                src={htmlsvg}
+                alt="html svg"
+                className="img-fluid tech-used m-2"
+              />
+              <img
+                src={bootstrapsvg}
+                alt="boostrap svg"
+                className="img-fluid tech-used m-2"
+              />
+              <img
+                src={jssvg}
+                alt="javascript svg"
+                className="img-fluid tech-used m-2"
+              />
+              <p className="mt-3 text-light">
+                This is a movie streaming website that built with the help of
+                react, bootstrap, javascript which was powered by the TMDB API.
+                The application comes with search feature where you can search
+                for a video and if it is available you get it rendered,
+                otherwise it shows not found message, this feature makes it
+                super cool. The movies listed on the website is coming the API,
+                the movies comes with their respective details such as title,
+                genre, description author and many others.
+              </p>
+              <a
+                href=""
+                className="btn btn-outline-light text-light btn-view-demo"
               >
                 View Demo
                 <BsEye className="m-2" />
@@ -174,53 +221,6 @@ const Slider = () => {
               <a
                 href="https://buildbridge.vercel.app"
                 target="_blank"
-                className="btn btn-outline-light text-light btn-view-demo"
-              >
-                View Demo
-                <BsEye className="m-2" />
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-container">
-            <div className="">
-              <img
-                src={moviestream}
-                alt="movie streaming png"
-                className="img-fluid"
-              />
-              <h4 className="project-name  text-light text-uppercase">BTube</h4>
-              <img
-                src={githubsvg}
-                alt="github svg"
-                className="img-fluid tech-used m-2"
-              />
-              <img
-                src={htmlsvg}
-                alt="html svg"
-                className="img-fluid tech-used m-2"
-              />
-              <img
-                src={bootstrapsvg}
-                alt="boostrap svg"
-                className="img-fluid tech-used m-2"
-              />
-              <img
-                src={jssvg}
-                alt="javascript svg"
-                className="img-fluid tech-used m-2"
-              />
-              <p className="mt-3 text-light">
-                This is a movie streaming website that built with the help of
-                react, bootstrap, javascript which was powered by the TMDB API.
-                The application comes with search feature where you can search
-                for a video and if it is available you get it rendered,
-                otherwise it shows not found message, this feature makes it
-                super cool. The movies listed on the website is coming the API,
-                the movies comes with their respective details such as title,
-                genre, description author and many others.
-              </p>
-              <a
-                href=""
                 className="btn btn-outline-light text-light btn-view-demo"
               >
                 View Demo

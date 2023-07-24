@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
 import "./Components.css";
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {HiMenuAlt3} from "react-icons/hi";
@@ -67,7 +67,7 @@ function Navigation() {
             >
               Contact
             </Link>
-            <Link to="/faqs" onClick={handleLinkClick} className="m-2 navlink">
+            <Link to="#faqs" onClick={handleLinkClick} className="m-2 navlink">
               Faqs
             </Link>
           </Nav>

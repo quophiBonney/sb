@@ -14,7 +14,7 @@ import reactnativesvg from "../../images/react-native-svg.svg";
 import vitesvg from "../../images/vite-svg.svg";
 const Skill = () => {
   return (
-    <div className="container-fluid aboutme">
+    <div className="container-fluid aboutme" id="skills">
       <Container className="">
         <Row className="justify-content-center">
           <h3 className="title text-light text-uppercase mt-5">My Skills</h3>
