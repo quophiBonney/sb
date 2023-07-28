@@ -164,7 +164,7 @@ const Slider = () => {
                 genre, description author and many others.
               </p>
               <a
-                href=""
+                href="https://ms-app-swart.vercel.app"
                 className="btn btn-outline-light text-light btn-view-demo"
               >
                 View Demo
@@ -264,30 +264,11 @@ const Slider = () => {
                 design to enrich your experience.
               </p>
               <a
-                href=""
+                href="https://quophibonney.github.io/youtube_videos/"
                 className="btn btn-outline-light text-light btn-view-demo"
               >
                 View Demo
                 <BsEye className="m-2" />
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-container">
-            <div className="">
-              <img src={youtubepng} alt="" className="img-fluid" />
-              <p className="mt-3 text-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ut
-                enim blanditiis unde? Illo id excepturi repellat debitis quis
-                officiis? Lorem, ipsum dolor sit amet consectetur adipisicing
-                elit. Itaque neque, blanditiis provident eaque adipisci
-                explicabo, tenetur quo commodi non, autem eveniet? Corrupti
-                dolor omnis dolorum modi molestias illum nostrum perferendis!
-              </p>
-              <a
-                href=""
-                className="btn btn-outline-light text-light btn-view-demo"
-              >
-                View Demo
               </a>
             </div>
           </SwiperSlide>
