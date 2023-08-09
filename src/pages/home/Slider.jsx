@@ -174,62 +174,6 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide className="swiper-container">
             <div className="">
-              <img
-                src={buildbridgepng}
-                alt="BuildBridge"
-                className="img-fluid"
-              />
-              <h4 className="project-name  text-light text-uppercase">
-                BuildBridge
-              </h4>
-              <img
-                src={githubsvg}
-                alt="github svg"
-                className="img-fluid tech-used m-2"
-              />
-              <img
-                src={bootstrapsvg}
-                alt="boostrap svg"
-                className="img-fluid tech-used m-2"
-              />
-              <img
-                src={csssvg}
-                alt="css svg"
-                className="img-fluid tech-used m-2"
-              />
-              <img
-                src={reactsvg}
-                alt="react svg"
-                className="img-fluid tech-used m-2"
-              />
-              <img
-                src={jssvg}
-                alt="javascript svg"
-                className="img-fluid tech-used m-2"
-              />
-
-              <p className="text-light">
-                A company that comprises of experts coming from the various
-                fields including software and mechanical engineering, project
-                management, marketing, cybersecurity and many others. I designed
-                and developed this website for their mobile app which is
-                available on both the IOS app store(iphone users) and google
-                playstore(android users). I encountered some challenges when
-                trying to design and develop it per their needs but I overcame
-                and they loved, the experience I had was really awesome.
-              </p>
-              <a
-                href="https://buildbridge.vercel.app"
-                target="_blank"
-                className="btn btn-outline-light text-light btn-view-demo"
-              >
-                View Demo
-                <BsEye className="m-2" />
-              </a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="swiper-container">
-            <div className="">
               <img src={youtubepng} alt="" className="img-fluid" />
               <h4 className="project-name  text-light text-uppercase">
                 YTube Video Fetcher
