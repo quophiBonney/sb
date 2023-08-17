@@ -4,7 +4,7 @@ import "swiper/css/bundle";
 import "../../App.css";
 import youtubepng from "../../images/youtube.png";
 import moviestream from "../../images/moviestreaming.png";
-import quoteGenerator from "../../images/QuoteGenerator.png";
+import quoteGenerator from "../../images/QuoteGenerator.PNG";
 import sbinstitute from "../../images/solomonbonneyinstitute.png";
 import {BsArrowRight, BsEye} from "react-icons/bs";
 import {
