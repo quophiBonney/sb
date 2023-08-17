@@ -3,8 +3,8 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css/bundle";
 import "../../App.css";
 import youtubepng from "../../images/youtube.png";
-import buildbridgepng from "../../images/buildbridge.PNG";
 import moviestream from "../../images/moviestreaming.png";
+import quoteGenerator from "../../images/QuoteGenerator.png";
 import sbinstitute from "../../images/solomonbonneyinstitute.png";
 import {BsArrowRight, BsEye} from "react-icons/bs";
 import {
@@ -118,6 +118,56 @@ const Slider = () => {
               </p>
               <a
                 href="https://sonobo-app.vercel.app"
+                className="btn text-light btn-view-demo"
+              >
+                View Demo
+                <BsEye className="m-2" />
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="swiper-container">
+            <div>
+              <img
+                src={quoteGenerator}
+                alt="Quote Generator"
+                className="img-fluid"
+              />
+              <h4 className="project-name  text-light text-uppercase">
+                Quote Generator
+              </h4>
+              <img
+                src={htmlsvg}
+                alt="svg svg"
+                className="img-fluid tech-used m-2"
+              />
+              <img
+                src={csssvg}
+                alt="svg svg"
+                className="img-fluid tech-used m-2"
+              />
+              <img
+                src={bootstrapsvg}
+                alt="boostrap svg"
+                className="img-fluid tech-used m-2"
+              />
+              <img
+                src={jssvg}
+                alt="javascript svg"
+                className="img-fluid tech-used m-2"
+              />
+              <p className="mt-3 text-light">
+                This is a platform built to help Ghanaians know the charges on
+                their mobile money withdrawals. Ghana introduced a new charge in
+                the form of tax on all mobile money above &#8373;100 called
+                e-levy. The introduction of this e-levy brought a lot of
+                confusion so I decided to curb the situation. During the
+                building of this project, I really came to understood the
+                workings of framer motion, useEffect and useState hooks. I also
+                got the chance to enrich my user interface and experience
+                skills.
+              </p>
+              <a
+                href="https://quophibonney.github.io/quote_generator/"
                 className="btn text-light btn-view-demo"
               >
                 View Demo

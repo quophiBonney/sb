@@ -23,6 +23,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -45,6 +48,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -67,6 +73,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="3000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -89,6 +98,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -111,6 +123,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -133,6 +148,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="3000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -155,6 +173,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -177,6 +198,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -197,6 +221,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="3000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -219,6 +246,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -241,6 +271,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="2000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
@@ -261,6 +294,9 @@ const Skill = () => {
             sm={12}
             md={6}
             lg={3}
+            data-aos="flip-right"
+            data-aos-duration="3000"
+            data-aos-delay="100"
             className="cert-container text-center skill-container mb-3"
           >
             <div className="d-flex">
