@@ -156,15 +156,11 @@ const Slider = () => {
                 className="img-fluid tech-used m-2"
               />
               <p className="mt-3 text-light">
-                This is a platform built to help Ghanaians know the charges on
-                their mobile money withdrawals. Ghana introduced a new charge in
-                the form of tax on all mobile money above &#8373;100 called
-                e-levy. The introduction of this e-levy brought a lot of
-                confusion so I decided to curb the situation. During the
-                building of this project, I really came to understood the
-                workings of framer motion, useEffect and useState hooks. I also
-                got the chance to enrich my user interface and experience
-                skills.
+                This platform provides you with million of quotes that inspire
+                you and also cause you to achieve greatness in whatever you do.
+                It comes with friendly and awesome interface that you can easily
+                find your way out. Join the few people that step out every day
+                with new mindset, energy and positivity.
               </p>
               <a
                 href="https://quophibonney.github.io/quote_generator/"
