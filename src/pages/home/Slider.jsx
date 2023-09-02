@@ -50,7 +50,7 @@ const Slider = () => {
     };
   }, []);
   return (
-    <div className="container-fluid slider">
+    <div className="container-fluid slider" style={{overflowX: "hidden"}}>
       <div
         className="container"
         data-aos="zoom-out"
