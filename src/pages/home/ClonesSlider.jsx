@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from "react";
-import {Swiper, SwiperSlide} from "swiper/react";
+import React, { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import "../../App.css";
 import kuuotepng from "../../images/kuuote.PNG";
-import {BsArrowRight, BsEye} from "react-icons/bs";
+import { BsArrowRight, BsEye } from "react-icons/bs";
 import {
   Keyboard,
   Navigation,
@@ -47,13 +47,8 @@ const ClonesSlider = () => {
     };
   }, []);
   return (
-    <div className="container-fluid slider" style={{overflowX: "hidden"}}>
-      <div
-        className="container"
-        data-aos="zoom-out"
-        data-aos-delay="300"
-        data-aos-duration="1000"
-      >
+    <div className="container-fluid slider">
+      <div className="container">
         <div>
           <h3 className="title text-light text-uppercase py-4">
             Clones
@@ -74,7 +69,7 @@ const ClonesSlider = () => {
           }}
           keyboard={true}
           onSlideChange={() => console.log("slide change")}
-          onSwiper={swiper => console.log(swiper)}
+          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide className="swiper-container">
             <div>

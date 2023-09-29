@@ -1,7 +1,7 @@
-import React, {useState, useRef} from "react";
-import {Container, Row, Col} from "react-bootstrap";
+import React, { useState, useRef } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const ContactForm = () => {
   const navigate = useNavigate();
   const [sendMessage, setSendMessage] = useState("Send Message");
@@ -12,7 +12,7 @@ const ContactForm = () => {
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState([]);
   const form = useRef();
-  const sendEmail = event => {
+  const sendEmail = (event) => {
     event.preventDefault();
     // Validate input fields
     const newErrors = [];
@@ -46,10 +46,10 @@ const ContactForm = () => {
             "eWajEKtVogHGSP8cC"
           )
           .then(
-            result => {
+            (result) => {
               console.log(result.text);
             },
-            error => {
+            (error) => {
               console.log(error.text);
             }
           );
@@ -84,7 +84,7 @@ const ContactForm = () => {
                         placeholder="First Name"
                         name="first_name"
                         value={firstName}
-                        onChange={event => setFirstName(event.target.value)}
+                        onChange={(event) => setFirstName(event.target.value)}
                         className="form-control py-2"
                       />
                       {errors.includes("First name is required") && (
@@ -104,7 +104,7 @@ const ContactForm = () => {
                         placeholder="Last Name"
                         name="last_name"
                         value={lastName}
-                        onChange={event => setLastName(event.target.value)}
+                        onChange={(event) => setLastName(event.target.value)}
                         className="form-control py-2"
                       />
                       {errors.includes("Last name is required") && (
@@ -124,7 +124,7 @@ const ContactForm = () => {
                         placeholder="example@gmail.com"
                         name="user_email"
                         value={email}
-                        onChange={event => setEmail(event.target.value)}
+                        onChange={(event) => setEmail(event.target.value)}
                         className="form-control py-2"
                       />
                       {errors.includes("Email address is required") && (
@@ -144,7 +144,7 @@ const ContactForm = () => {
                         placeholder="Contact"
                         name="contact"
                         value={contact}
-                        onChange={event => setContact(event.target.value)}
+                        onChange={(event) => setContact(event.target.value)}
                         className="form-control py-2"
                       />
                       {errors.includes("Contact is required") && (
@@ -159,11 +159,11 @@ const ContactForm = () => {
                       Message<sup className="text-danger">*</sup>
                     </label>
                     <textarea
-                      style={{height: "250px"}}
+                      style={{ height: "250px" }}
                       name="message"
                       placeholder="Write your message here..."
                       value={message}
-                      onChange={event => setMessage(event.target.value)}
+                      onChange={(event) => setMessage(event.target.value)}
                       className="form-control"
                     />
                     {errors.includes("Please type a message") && (
@@ -171,13 +171,6 @@ const ContactForm = () => {
                         Please type a message
                       </div>
                     )}
-                  </div>
-                  <div className="form-group mt-3">
-                    <input
-                      type="submit"
-                      value="Clear Fields"
-                      className="btn btn-clear-fields py-2 form-control"
-                    />
                   </div>
                   <div className="form-group mt-3">
                     <input

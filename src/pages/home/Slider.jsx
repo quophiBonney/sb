@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from "react";
-import {Swiper, SwiperSlide} from "swiper/react";
+import React, { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import "../../App.css";
 import youtubepng from "../../images/youtube.png";
 import moviestream from "../../images/moviestreaming.png";
 import quoteGenerator from "../../images/QuoteGenerator.PNG";
 import sbinstitute from "../../images/solomonbonneyinstitute.png";
-import {BsArrowRight, BsEye} from "react-icons/bs";
+import { BsArrowRight, BsEye } from "react-icons/bs";
 import {
   Keyboard,
   Navigation,
@@ -50,14 +50,15 @@ const Slider = () => {
     };
   }, []);
   return (
-    <div className="container-fluid slider" style={{overflowX: "hidden"}}>
+    <div className="container-fluid slider">
       <div
         className="container"
-        data-aos="zoom-out"
-        data-aos-delay="300"
-        data-aos-duration="1000"
+        data-aos="flip-right"
+        data-aos-delay="00"
+        data-aos-duration="3000"
+        style={{ overflowX: "hidden" }}
       >
-        <div>
+        <div class="space-content">
           <h3 className="title text-light text-uppercase py-4">
             Projects
             <span className="swipe">
@@ -77,7 +78,7 @@ const Slider = () => {
           }}
           keyboard={true}
           onSlideChange={() => console.log("slide change")}
-          onSwiper={swiper => console.log(swiper)}
+          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide className="swiper-container">
             <div>

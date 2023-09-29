@@ -1,8 +1,8 @@
 import React from "react";
-import {Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import mypic from "../../images/mypic.webp";
 import mycv from "../../images/mycv.pdf";
-import {BsDownload} from "react-icons/bs";
+import { BsDownload } from "react-icons/bs";
 
 const AboutMe = () => {
   return (

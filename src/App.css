@@ -28,10 +28,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 .btn {
   font-family: 'Archivo Black', sans-serif;
   font-weight: 800;
+}
+.space-content {
+  margin-top: 100px;
 }
 /** Hero Styling **/
 .hero {

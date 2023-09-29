@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import htmlsvg from "../../images/html-svg.svg";
 import csssvg from "../../images/css-svg.svg";
 import jssvg from "../../images/javascript.svg";
@@ -15,9 +15,17 @@ import vitesvg from "../../images/vite-svg.svg";
 const Skill = () => {
   return (
     <div className="container-fluid aboutme" id="skills">
-      <Container className="">
+      <Container
+        className=""
+        data-aos="slide-right"
+        data-aos-delay="100"
+        data-aos-duration="3000"
+        style={{ overflowX: "hidden" }}
+      >
         <Row className="justify-content-center">
-          <h3 className="title text-light text-uppercase mt-5">My Skills</h3>
+          <h3 className="title text-light text-uppercase mt-5 space-content">
+            My Skills
+          </h3>
           <Col
             xs={12}
             sm={12}

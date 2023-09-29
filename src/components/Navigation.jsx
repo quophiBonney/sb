@@ -1,8 +1,8 @@
 import React from "react";
-import {HashLink as Link} from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 import "./Components.css";
-import {Container, Nav, Navbar} from "react-bootstrap";
-import {HiMenuAlt3} from "react-icons/hi";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { HiMenuAlt3 } from "react-icons/hi";
 function Navigation() {
   const handleLinkClick = () => {
     const navbarToggle = document.getElementById("navbar-toggle");
@@ -21,8 +21,8 @@ function Navigation() {
         <Navbar.Toggle
           id="navbar-toggle"
           aria-controls="responsive-navbar-nav"
-          onFocus={e => e.target.blur()}
-          style={{border: "0px", margin: "0px"}}
+          onFocus={(e) => e.target.blur()}
+          style={{ border: "0px", margin: "0px" }}
         >
           <span>
             <HiMenuAlt3
