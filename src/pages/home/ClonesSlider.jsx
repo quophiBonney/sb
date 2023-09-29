@@ -62,7 +62,7 @@ const ClonesSlider = () => {
           modules={[Keyboard, Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={slidesToShow}
-          slidesPercolumn={1}
+          slidespercolumn={1}
           scrollbar={{
             draggable: true,
             snapOnRelease: true,

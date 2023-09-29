@@ -7,17 +7,21 @@ const work = `I first I engage them in detailed and descriptive conversation in 
 const items = [
   {
     key: "1",
-    label: <p class="fw-bold text-light">Are you available for remote job?</p>,
+    label: (
+      <p className="fw-bold text-light">Are you available for remote job?</p>
+    ),
     children: <p>{remoteJob}</p>,
   },
   {
     key: "2",
-    label: <p class="fw-bold text-light">Why are you located in Ghana?</p>,
+    label: <p className="fw-bold text-light">Why are you located in Ghana?</p>,
     children: <p>{location}</p>,
   },
   {
     key: "3",
-    label: <p class="fw-bold text-light">How do you work with your clients?</p>,
+    label: (
+      <p className="fw-bold text-light">How do you work with your clients?</p>
+    ),
     children: <p>{work}</p>,
   },
 ];
@@ -27,12 +31,13 @@ const Faq = () => {
   };
   return (
     <div>
-      <div className="container-fluid aboutme" id="faqs">
+      <div className="container-fluid bg-danger aboutme" id="faqs">
         <Container>
           <div className="row justify-content-center">
-            <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
+            <div className="col-sm-12 col-md-12 col-lg-12 mt-5 mb-3">
               <Collapse
                 items={items}
+                className="border-0"
                 defaultActiveKey={["1"]}
                 onChange={onChange}
               />

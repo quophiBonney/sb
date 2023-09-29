@@ -48,7 +48,7 @@ const Slider = () => {
   return (
     <div className="container-fluid slider">
       <div className="container">
-        <div class="space-content">
+        <div className="space-content">
           <h3 className="title text-light text-uppercase py-4">
             Projects
             <span className="swipe">
@@ -61,7 +61,7 @@ const Slider = () => {
           modules={[Keyboard, Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={slidesToShow}
-          slidesPercolumn={1}
+          slidespercolumn={1}
           scrollbar={{
             draggable: true,
             snapOnRelease: true,

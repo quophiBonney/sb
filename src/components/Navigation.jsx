@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "./Components.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
@@ -10,8 +10,28 @@ function Navigation() {
       navbarToggle.click();
     }
   };
+  const [navbarBg, setNavbarBg] = useState("navbar");
+  useEffect(() => {
+    const scrollPosition = window.scrollY;
+    const scrollHeight = 2;
+    const changeNavbarColorOnScroll = () => {
+      if (scrollPosition > scrollHeight) {
+        setNavbarBg("darkgray");
+      } else {
+        setNavbarBg("navbar");
+      }
+    };
+    window.addEventListener("scroll", changeNavbarColorOnScroll);
+    return () => {
+      window.removeEventListener("scroll", changeNavbarColorOnScroll);
+    };
+  }, []);
   return (
-    <Navbar collapseOnSelect expand="lg" className="fixed-top navbar">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className={`fixed-top shadow ${navbarBg}`}
+    >
       <Container>
         <Navbar.Brand href="/">
           <div>
