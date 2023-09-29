@@ -19,7 +19,7 @@ const Skill = () => {
         className=""
         data-aos="slide-right"
         data-aos-delay="100"
-        data-aos-duration="3000"
+        data-aos-duration="1000"
         style={{ overflowX: "hidden" }}
       >
         <Row className="justify-content-center">

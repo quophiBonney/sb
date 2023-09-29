@@ -23,12 +23,8 @@ import bootstrapsvg from "../../images/bootstrap-svg.svg";
 import reactsvg from "../../images/react-svg.svg";
 import githubsvg from "../../images/github-142-svgrepo-com.svg";
 import sonobopng from "../../images/sonobo.png";
-import mysqlsvg from "../../images/mysql-svg.svg";
 import htmlsvg from "../../images/html-svg.svg";
 import csssvg from "../../images/css-svg.svg";
-import phpsvg from "../../images/php-svgrepo-com.svg";
-import wordpresssvg from "../../images/wordpress-svgrepo-com.svg";
-import reactnativesvg from "../../images/react-native-svg.svg";
 import vitesvg from "../../images/vite-svg.svg";
 const Slider = () => {
   const [slidesToShow, setSlidesToShow] = useState(3);
@@ -51,13 +47,7 @@ const Slider = () => {
   }, []);
   return (
     <div className="container-fluid slider">
-      <div
-        className="container"
-        data-aos="flip-right"
-        data-aos-delay="00"
-        data-aos-duration="3000"
-        style={{ overflowX: "hidden" }}
-      >
+      <div className="container">
         <div class="space-content">
           <h3 className="title text-light text-uppercase py-4">
             Projects

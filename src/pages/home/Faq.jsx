@@ -7,17 +7,17 @@ const work = `I first I engage them in detailed and descriptive conversation in 
 const items = [
   {
     key: "1",
-    label: <p class="fw-bold">Are you available for remote job?</p>,
+    label: <p class="fw-bold text-light">Are you available for remote job?</p>,
     children: <p>{remoteJob}</p>,
   },
   {
     key: "2",
-    label: <p class="fw-bold">Why are you located in Ghana?</p>,
+    label: <p class="fw-bold text-light">Why are you located in Ghana?</p>,
     children: <p>{location}</p>,
   },
   {
     key: "3",
-    label: <p class="fw-bold">How do you work with your clients?</p>,
+    label: <p class="fw-bold text-light">How do you work with your clients?</p>,
     children: <p>{work}</p>,
   },
 ];
