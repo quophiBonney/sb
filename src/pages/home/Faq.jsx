@@ -31,7 +31,7 @@ const Faq = () => {
   };
   return (
     <div>
-      <div className="container-fluid bg-danger aboutme" id="faqs">
+      <div className="container-fluid aboutme" id="faqs">
         <Container>
           <div className="row justify-content-center">
             <div className="col-sm-12 col-md-12 col-lg-12 mt-5 mb-3">
