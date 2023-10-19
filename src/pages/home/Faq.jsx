@@ -5,7 +5,7 @@ const remoteJob = `Yes I am available with full experience and taste of remote j
 const location =
   "I am in Ghana but really travel around the world for work and relaxations.";
 const work = `I first I engage them in detailed and descriptive conversation in order to know their requirements, then again interact with them during every phase in the development process.`;
-const mentoring = `My mentoring sessions are divided into three sections thus knowing thy self, theory and practicals. So before I dive into teaching you, I will first get to know you(e.g strength and weakeness) and then project the various fields present in the tech space. Once you choose your field, then the magic happens`;
+const mentoring = `My mentoring sessions are divided into three sections thus knowing thy self, theory and practicals. So before I dive into teaching you, I will first get to know you(e.g strength and weakness) and then project the various fields present in the tech space. Once you choose your field, then the magic happens`;
 const items = [
   {
     key: "1",

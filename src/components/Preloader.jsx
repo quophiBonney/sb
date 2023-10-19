@@ -1,11 +1,11 @@
-import React, {useState} from "react";
-import {useSpring} from "react-spring";
-import loader from "../images/495.gif";
+import React, { useState } from "react";
+import { useSpring } from "react-spring";
+import loader from "../images/loader.gif";
 function Preloader() {
   const [x, setX] = useState(0);
   const spring = useSpring({
-    from: {x: 100},
-    to: {x},
+    from: { x: 100 },
+    to: { x },
   });
   return (
     <div className="container-fluid">
