@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import ContactForm from "./ContactForm";
 import Clones from "./Clones";
 import Faq from "./Faq";
+import Pricing from "./Pricing";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Projects />
       <Clones />
       <ContactForm />
+      <Pricing />
       <Faq />
     </>
   );

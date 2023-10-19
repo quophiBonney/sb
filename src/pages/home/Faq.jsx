@@ -32,7 +32,7 @@ const Faq = () => {
   return (
     <div>
       <div className="container-fluid aboutme" id="faqs">
-        <Container>
+        <Container style={{ marginTop: "150px" }}>
           <div className="row justify-content-center">
             <div className="col-sm-12 col-md-12 col-lg-12 mt-5 mb-3">
               <Collapse

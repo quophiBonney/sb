@@ -63,7 +63,13 @@ const ContactForm = () => {
   return (
     <>
       <div className="container-fluid aboutme" id="contact">
-        <Container className="">
+        <Container
+          className=""
+          data-aos="flip-right"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+          style={{ overflowX: "hidden", marginTop: "150px" }}
+        >
           <Row className="justify-content-center">
             <Col sm={12} md={7} lg={7} className="mt-5 text-light">
               <div className="card-header text-center py-3">

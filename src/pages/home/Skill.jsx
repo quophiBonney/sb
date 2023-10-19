@@ -18,9 +18,9 @@ const Skill = () => {
       <Container
         className=""
         data-aos="slide-right"
-        data-aos-delay="100"
-        data-aos-duration="1000"
-        style={{ overflowX: "hidden" }}
+        data-aos-delay="200"
+        data-aos-duration="2000"
+        style={{ overflowX: "hidden", marginTop: "150px" }}
       >
         <Row className="justify-content-center">
           <h3 className="title text-light text-uppercase mt-5 space-content">
