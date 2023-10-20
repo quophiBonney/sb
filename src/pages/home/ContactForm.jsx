@@ -71,7 +71,7 @@ const ContactForm = () => {
           style={{ overflowX: "hidden", marginTop: "150px" }}
         >
           <Row className="justify-content-center">
-            <Col sm={12} md={7} lg={7} className="mt-5 text-light">
+            <Col sm={12} md={12} lg={12} className="mt-5 text-light">
               <div className="card-header text-center py-3">
                 <h3 className="third-text card-title">Let Me Hear From You</h3>
                 <p className="paragraph">
@@ -182,7 +182,7 @@ const ContactForm = () => {
                     <input
                       type="submit"
                       value={sendMessage}
-                      className="btn btn-send-message py-2 mb-3 form-control"
+                      className="btn btn-send-message p-3 fs-4 mb-3 form-control"
                     />
                   </div>
                 </div>

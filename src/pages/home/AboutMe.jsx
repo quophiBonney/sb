@@ -50,11 +50,11 @@ const AboutMe = () => {
               </div>
             </Col>
             <Col xs={12} sm={12} md={6} lg={5} className="text-light mt-5">
-              <div className="mb-3">
+              <div className="mb-3 h-100">
                 <img
                   src={mypic}
                   alt="Solomon Bonney"
-                  className="img-fluid img-responsive my-pic"
+                  className="img-fluid h-100 img-responsive my-pic"
                 />
               </div>
             </Col>

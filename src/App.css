@@ -75,6 +75,15 @@ img {
   border-radius: 20px;
   animation: fadeIn 2s infinite;
 }
+/** Pricing styling **/
+.price-card:hover {
+    border: 2px solid #d3d3d3;
+    cursor: pointer;
+    transform: scale(0.97);
+    transition: 0.5s;
+    background:rgba(85, 167, 248, 0.982);
+    color: #fff;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0.8;
