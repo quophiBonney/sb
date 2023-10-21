@@ -5,7 +5,6 @@ import "../../App.css";
 import youtubepng from "../../images/youtube.png";
 import moviestream from "../../images/moviestreaming.png";
 import quoteGenerator from "../../images/QuoteGenerator.PNG";
-import sbinstitute from "../../images/solomonbonneyinstitute.png";
 import { BsArrowRight, BsEye } from "react-icons/bs";
 import {
   Keyboard,
@@ -151,7 +150,10 @@ const Slider = () => {
                 you and also cause you to achieve greatness in whatever you do.
                 It comes with friendly and awesome interface that you can easily
                 find your way out. Join the few people that step out every day
-                with new mindset, energy and positivity.
+                with new mindset, energy and positivity. Staying focused,
+                consistent, discipline and motivated can really help you
+                transform your life for years and you can do so by reading
+                content to give you such things.
               </p>
               <a
                 href="https://quophibonney.github.io/quote_generator/"

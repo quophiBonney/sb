@@ -182,7 +182,7 @@ const ContactForm = () => {
                     <input
                       type="submit"
                       value={sendMessage}
-                      className="btn btn-send-message p-3 fs-4 mb-3 form-control"
+                      className="btn btn-send-message p-2 fs-5 mb-3 form-control"
                     />
                   </div>
                 </div>

@@ -81,6 +81,13 @@ function Navigation() {
               Clones
             </Link>
             <Link
+              to="#pricing"
+              onClick={handleLinkClick}
+              className="m-2 navlink"
+            >
+              Pricing
+            </Link>
+            <Link
               to="#contact"
               onClick={handleLinkClick}
               className="m-2 navlink"

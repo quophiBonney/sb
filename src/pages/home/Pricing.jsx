@@ -36,7 +36,7 @@ const Pricing = () => {
   //  }
   return (
     <div>
-      <div className="container-fluid aboutme">
+      <div className="container-fluid aboutme" id="pricing">
         <div className="container" style={{ marginTop: "150px" }}>
           <div className="row justify-content-center">
             <h3 className="text-light text-uppercase">Pricing</h3>
